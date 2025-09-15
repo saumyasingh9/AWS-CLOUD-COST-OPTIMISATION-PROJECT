@@ -9,6 +9,9 @@ In this I created a Lambda function that identifies EBS snapshots that are no lo
 
 The Lambda function fetches all EBS snapshots owned by the same account ('self') and also retrieves a list of active EC2 instances (running and stopped). For each snapshot, it checks if the associated volume (if exists) is not associated with any active instance. If it finds a stale snapshot, it deletes it, effectively optimizing storage costs.
 
+I also Applied IAM roles and fine-grained policies to enforce least-privilege access, securing Lambda interactions with EBS and CloudWatch.
+
+Automated the scheduling of cleanup tasks through CloudWatch Events, ensuring snapshots were managed without manual intervention.
 
 
 ..
