@@ -14,7 +14,7 @@ I also applied IAM roles and fine-grained policies to enforce least-privilege ac
 Automated the scheduling of cleanup tasks through Amazon EventBridge rules, ensuring snapshots were managed without manual intervention.
 
 
-..
+
 ![alt text](<Screenshot (90).png>)
 
 ![alt text](<Screenshot (89).png>)
