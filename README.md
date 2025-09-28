@@ -1,5 +1,5 @@
 # AWS-CLOUD-COST-OPTIMISATION-PROJECT
-# AWS Cloud Cost Optimization - Identifying Stale Resources
+# AWS Cloud Cost Optimization - Identifying Stale Resources and deleting them
 
 ## Identifying Stale EBS Snapshots
 
